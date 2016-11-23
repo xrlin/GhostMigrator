@@ -1,6 +1,7 @@
-# A script to tanslate blogs from ghost to standard markdown files.
+# GhostMigrator
+## A script to tanslate blogs from ghost to standard markdown files.
 
-## Usage
+### Usage
 
 1. Clone the project.
 
@@ -12,4 +13,4 @@ migrator = Migrator.new('your-json-file-path-export-from-ghost');
 migrator.generate;
 ```
 
-### After tanslation you can use the markdown file in github pages.
+#### After tanslation you can use the markdown file in github pages.
